@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+.hero{
+	width: 100%;
+	height: 100%;
+	background-image: url(images/gdsc2.png);
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	overflow: hidden;
+
+}
+.logo{ position: ;
+	width: 100px;
+	cursor: pointer 
+}
+.navbar{
+	width: 85%;
+	height: 15%;
+	margin: auto;s
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+button{
+	color: #fbfcfd;
+	padding: 15px 25px;
+	background: transparent;
+	border: 10px solid #fff;
+	border-radius: 200px;
+	outline: none;
+	cursor: pointer;
+	animation: inherit;
+	padding-top: 10px;
+
+}
+.content{
+	color: #fbfcfd;
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+	z-index: 2;
+	
+}
+small{
+	font-size: 40px;
+	margin: 10px 0 10px;
+}
+h1{
+	font-size: 80px;
+	margin: 10px 0 10px;
+	line-height: 80px;
+	
+}
+p{
+	font-size: 20px;
+	margin: 450px 0 10px;
+	line-height: 20px;
+	color: white;
+	}
+
+.side-bar{
+	width: 500px;
+	height: 0vh;
+	background: linear-gradient(#00545d,#000720);
+	position: fixed;
+	
+
+}
+.menu{
+	display: block;
+	width: 25px;
+	margin: 40px auto 0;
+	cursor: pointer;
+
+}
+.social-links img, .useful-links img{
+	width: 25px;
+ margin: 6px auto;
+ cursor: pointer;
+
+}
+.social-links{
+	
+	top: 90%;
+	}
